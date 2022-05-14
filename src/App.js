@@ -37,8 +37,13 @@ function App() {
   return (
     <div className="app">
       <Header />
-      <Hero activeNft={activeNft} collection={collection} />
-      <CollectionList collection={collection} setActiveNft={setActiveNft} />
+
+      {collection.length > 0 && (
+        <>
+          <Hero activeNft={activeNft} collection={collection} />
+          <CollectionList collection={collection} setActiveNft={setActiveNft} />
+        </>
+      )}
     </div>
   );
 }
