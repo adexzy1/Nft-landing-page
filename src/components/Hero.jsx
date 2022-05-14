@@ -36,7 +36,7 @@ const Hero = ({ activeNft, collection }) => {
               />
             </div>
             <div>
-              <p>{activeHero.owner.address}</p>
+              <p>{activeHero?.owner.address}</p>
               <p className="username">@iamTheBravo</p>
             </div>
           </div>
