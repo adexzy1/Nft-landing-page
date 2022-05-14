@@ -1,0 +1,86 @@
+.hero-container {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+  padding-bottom: 1rem;
+  margin: 0 3rem;
+}
+
+.left-col {
+  display: flex;
+}
+
+.hero-img-container {
+  width: 22rem;
+}
+
+.hero-img-container > img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.hero-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hero-details > h1 {
+  padding-left: 2rem;
+  font-size: 5rem;
+  font-weight: 900;
+  white-space: nowrap;
+}
+
+.hero-id {
+  font-size: 3rem;
+  color: #a1a5b0;
+}
+
+.owner-container {
+  padding-left: 2rem;
+  display: flex;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.circle {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 100%;
+  background-color: tomato;
+  margin-right: 10px;
+  overflow: hidden;
+  object-fit: contain;
+}
+
+.circle > img {
+  width: 100%;
+}
+
+.username {
+  color: aquamarine;
+}
+
+.socials {
+  display: flex;
+  align-items: flex-end;
+}
+
+.socials > div {
+  border: 2px solid white;
+  margin-left: 2rem;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  transition: all ease-in 0.1s;
+}
+
+.socials > div:hover {
+  background-color: #a1a5b0;
+}
+
+.socials > div > img {
+  width: 50px;
+}
